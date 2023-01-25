@@ -10,9 +10,14 @@ class APP extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const  MaterialApp(
+    return   MaterialApp(
+      theme: ThemeData(
+        useMaterial3: true,
+        colorSchemeSeed: Colors.amber,
+
+      ),
       debugShowCheckedModeBanner: false,
-      home: QRCodeGenerator(),
+      home: const QRCodeGenerator(),
     );
   }
 }
