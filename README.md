@@ -17,6 +17,12 @@ package, which takes an input URL from the user and displays it as an image in a
 8. **Inside the `Container` widget, the `QrImage` widget from the `qr_flutter` package is used to generate the QR code from the input URL. The `QrImage` widget takes the input URL as the `data` parameter, and you can customize the size and version of the QR code using the `size` and `version` parameters respectively.**
 9. **Finally, the `QRCodeGenerator` widget is used in the app's build method to display the QR code generator and the generated QR code.**
 
+#OUTPUT 
+
+![Artboard Studio Mockups (Community)](https://user-images.githubusercontent.com/108278575/214351212-cc8bd98b-c8e2-48d0-a08f-f9dada53af4b.png)
+
+
+
 - [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
 - [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
 
